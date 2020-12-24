@@ -1,8 +1,7 @@
 :root {
-    --color-black: #212b31;
-    --color-gray: #72787D; 
-    --color-white: #fff;
-    --color-blue: #036FC7;
-    --color-orange: #FFC22D;
-    --color-light-gray: #f6f8f9
+  --color-black: #212b31;
+  --color-gray: #72787d;
+  --color-white: #fff;
+  --color-blue: #036fc7;
+  --color-orange: #ffc22d;
 }

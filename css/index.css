@@ -1,35 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-@import "./header.css";
-@import "./variables.css";
-@import "../fonts/style.css";
-@import "./components.css";
-@import "./hero.css";
-@import "./advantages.css";
-@import "./construction.css";
-@import "./haos.css";
-@import "./sponsors.css";
-@import "./construction__control__information.css";
-@import "./delivery.css";
-@import "./safety.css";
-@import "./features.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import './variables.css';
+@import '../fonts/style.css';
+@import './header.css';
+@import './components.css';
+@import './hero.css';
+@import './advantages.css';
+@import './chaos.css';
+@import './order.css';
+@import './sponsors.css';
+@import './about.css';
+@import './delivery.css';
+@import './safety.css';
+@import './features.css';
 
-*{
-    padding: 0;
-    margin: 0;  
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body,html,* {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
 }
 
 .container {
-    max-width: 1060px;
-    margin: 0 auto;
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

@@ -1,65 +1,63 @@
 .safety {
-    padding: 140px 0 140px 0;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
 }
 
-.safety__header {
-    text-align: center;
+.features_container {
+  position: relative;
 }
-
 .safety__title {
-    position: relative;
-    display: inline-block;
-    align-items: center;
-    font-size: 32px;
-    line-height: 48px;
+  display: inline-block;
+  position: relative;
 }
 
 .safety__title::before {
-    content: "";
-    position: absolute;
-    background: url("../images/flover.svg");
-    width: 40px;
-    height: 40px;
-    right: -15%;
-    top: -40%;
+  content: '';
+  position: absolute;
+  right: -17%;
+  top: -40%;
+  background: url('../images/flower.svg');
+  width: 40px;
+  height: 40px;
 }
-
-.safety__card {
-    padding: 48px 0 0px;
-    text-align: center;
-}
-
 .safety__suptitle {
-    margin: 0px 0 10px;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--color-black);
+  margin: 20px 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-black);
 }
 
-.safety__description {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--color-gray);
+.safety__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-gray);
+}
+
+.safety__row {
+  padding-top: 48px;
 }
 
 .safety__item {
-    padding: 16px;
+  padding: 16px;
 }
-
 .safety__footer {
-    margin-top: 62px;
-    align-items: center;
-    padding: 46px 42px;
-    background: var(--color-light-gray);
-    border-radius: 5px;
+  margin-top: 62px;
+  align-items: center;
+  padding: 46px 42px;
+  background: #f6f8f9;
+  border-radius: 5px;
 }
 
 .safety__detail {
-    white-space: nowrap;
-    margin: 0 66px 0 26px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+  white-space: nowrap;
+  margin: 0 66px 0 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--color-black);
 }

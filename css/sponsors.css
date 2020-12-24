@@ -1,21 +1,13 @@
-.sponsors__logo {
-    width: 1088px;
-    height: 271.72px;
-    align-items: center
-
+.sponsors__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
-.sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 71px;
-}
-.sponsors__image-logo {
-    margin-right: 30px
-    
-}
-
-.sponsors__image-logo:last-child {
-    margin-left: 39%;
-    margin-top: 10px
+.sponsors__item {
+  list-style: none;
+  width: 20%;
 }

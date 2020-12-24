@@ -1,0 +1,46 @@
+.haos {
+
+}
+
+.haos__span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-black);
+}
+
+.haos__heading {
+    margin: 144px 87px 168px 0;
+}
+
+.haos__title {
+    margin: 0 53px 16px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+
+.haos__container {
+    width: 542px;
+    height: 400px;
+    float: left;
+}
+
+.haos__image {
+    /* float: right; */
+}
+
+.haos__description {
+    margin: 0 0 28px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-gray);
+}

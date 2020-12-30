@@ -1,5 +1,5 @@
 .features {
-  padding-top: 143px;
+  padding-top: 140px;
   background: #212b31;
 }
 
@@ -16,6 +16,13 @@
 
 .features__suptitle {
   position: relative;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-white);
+  padding-bottom: 10px;
+}
+.features__subtitle {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;

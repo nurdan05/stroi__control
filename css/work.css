@@ -1,0 +1,41 @@
+.work {
+    padding: 140px 0 100px 0;
+}
+
+.work__description {
+    margin: 21px 0 60px 0;
+}
+.work__item {
+    display: flex;
+    margin-bottom: 30px;
+}
+.work__item span {
+    display: inline-block;
+    margin: 0 32px 0 0;
+    padding: 10px 16px;
+    max-width: 40px;
+    max-height: 20px;
+    border: 1px solid #dadedf;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-gray);
+}
+
+.work__info h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+.work__info p {
+    margin-top: 10px ;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+
+.work button + button {
+    margin-left:16px;
+}

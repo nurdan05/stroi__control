@@ -14,13 +14,20 @@
 @import './features.css';
 @import './vendors/slick.css';
 @import './work.css';
+@import './benefits.css';
+@import './project.css';
+@import './footer.css';
+
+
+
+@import './vendors/slick.css';
 
 * {
   padding: 0;
   margin: 0;
 }
 
-body {
+* {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

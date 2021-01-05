@@ -35,13 +35,18 @@
 .row {
   display: flex;
 }
-
+.col-7 {
+  width: 58.33% ;
+}
 .col-6 {
   width: 50%;
 }
 
 .col-4 {
   width: 33.33%;
+}
+.col-2 {
+  width: 13.33%
 }
 .title {
   font-weight: normal;
@@ -54,6 +59,14 @@
   font-size: 20px;
   line-height: 32px;
   color: var(--color-gray);
+}
+.subdescription {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--color-black);
 }
 
 .text-right {
@@ -80,7 +93,7 @@
 }
 
 .orange-link::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -2px;
   bottom: 0;

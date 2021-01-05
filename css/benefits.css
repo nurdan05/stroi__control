@@ -1,0 +1,132 @@
+.benefits {
+    padding: 140px 0 100px 0;
+}
+
+.benefits__description {
+    margin: 21px 0 60px 0;
+}
+.benefits__item {
+    display: flex;
+    margin-bottom: 30px;
+}
+.benefits__item svg {
+    margin: 0 32px 0 0;
+    min-width: 48px;
+}
+
+.benefits__info h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+.benefits__info p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+
+.slider__wrapper {
+    margin: 0 -92px 0 80px;
+    padding: 60px 87px 90px 87px;
+    background: #f6f8f9;
+    border-radius: 5px;
+}
+
+.slider__item p {
+    font-size: 30px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+
+.slider__inner {
+    padding: 28px 0 0 0;
+    display: flex;
+}
+
+.slider__inner img {
+    margin-right: 8px;
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.slider__name {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-black);
+}
+
+.slider__position {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-gray);
+}
+
+.benefits__row {
+    padding: 55px 0 0 0;
+}
+
+.slider__item {
+    outline: none;
+}
+
+.benefits .slick-dots {
+    padding-top: 28px;
+    display: flex;
+    list-style: none;
+}
+.benefits .slick-dots button {
+    margin-right: 8px;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgba(3, 111, 199, 0.2);
+}
+
+.benefits .slick-dots .slick-active button {
+    background-color: var(--color-blue);
+}
+
+.benefits__sponsors {
+    position: relative;
+    display: flex;
+    padding: 160px 0 280px 0;
+}
+
+.benefits__image {
+    position: absolute;
+    margin: 0 120px 0 0;  
+}
+
+.benefits__image:first-child {
+    top: 127px;
+    left: 192px;
+}
+.benefits__image:nth-child(2) {
+    top: 139px;
+    left: 437px;
+}
+.benefits__image:nth-child(3) {
+    top: 128px;
+    left: 702px;
+}
+.benefits__image:nth-child(4) {
+    top: 369px;
+    left: 436px;
+}
+.benefits__image p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:var(--color-gray);
+}

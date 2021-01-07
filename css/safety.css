@@ -61,3 +61,14 @@
   line-height: 32px;
   color: var(--color-black);
 }
+
+@media screen and (max-width: 576px) {
+  .safety__footer {
+    justify-content: center
+  }
+  .safety__detail {
+    margin: 20px 0;
+    flex-direction: column;
+    white-space: normal;
+  }
+}

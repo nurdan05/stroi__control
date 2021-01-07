@@ -8,7 +8,7 @@
   margin: 74px 0 30px;
   font-weight: 400;
   font-size: 48px;
-  line-height: 64px;
+  line-height: 1.35 ;
   text-align: center;
   color: var(--color-black);
 }
@@ -26,4 +26,11 @@
   display: block;
 	margin: auto;
 	max-width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+  .hero__title {
+    font-size: 32px;
+  }
 }

@@ -45,3 +45,12 @@
 .order__link:hover::before {
   height: 100%;
 }
+
+
+@media screen and (max-width: 576px) {
+ .order__image {
+   width: 100%;
+   padding-top: 20px;
+   text-align: center;
+ } 
+}

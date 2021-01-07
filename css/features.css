@@ -58,3 +58,12 @@
 .features__descr {
   padding-top: 126px;
 }
+ 
+@media screen and (max-width: 576px) {
+
+.features_image {
+  padding-top: 20px;
+  position: relative;
+  right: -13%;
+}
+}

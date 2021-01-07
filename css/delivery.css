@@ -29,7 +29,7 @@
 }
 
 .delivery__footer {
-	margin-top: 22px;
+  margin-top: 22px;
   display: flex;
   justify-content: center;
 }
@@ -38,4 +38,13 @@
   font-size: 20px;
   line-height: 32px;
   color: var(--color-gray);
+}
+
+@media screen and (max-width: 576px) {
+  .delivery__icon {
+    margin-right: 275px;
+  }
+  .delivery__footer {
+    flex-direction: column;
+  }
 }

@@ -34,9 +34,6 @@
 .footer__list {
     margin-left: 140px;
 }
-.footer__list {
-    margin: ;
-}
 
 .footer__item {
     list-style: none;
@@ -54,5 +51,32 @@
 }
 
 .footer__inner {
-    display: flex
+    display: flex;
+}
+
+.footer__end {
+    margin-top: 120px;
+    padding: 31px 0 33px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-gray);
+}
+
+.footer__end span {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+
+@media screen and (max-width: 576px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        margin: 20px 0 0 -140px
+    }
+    .footer__list {
+        width: 100%;
+        margin-top: 20px;
+    }
 }

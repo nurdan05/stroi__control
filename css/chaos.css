@@ -10,3 +10,9 @@
 	max-width: 100%;
 	margin-bottom: 144px;
 }
+
+@media screen and (max-width: 576px) {
+	.chaos__image {
+		min-width: 100%;
+	}
+}

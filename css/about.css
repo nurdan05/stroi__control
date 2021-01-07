@@ -26,3 +26,10 @@
   line-height: 24px;
   color: var(--color-gray);
 }
+
+@media screen and (max-width: 576px) {
+  .about__item img {
+    width: 100%;
+    padding: 22px 0;
+  }
+}

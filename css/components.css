@@ -103,3 +103,23 @@
   background-color: var(--color-orange);
   transition: 0.3s;
 }
+
+
+@media screen and (max-width: 576px) {
+ .btn-black,
+ .btn-white {
+   font-size: 14px;
+ } 
+ .row {
+   flex-wrap: wrap;
+ }
+ .col-7 {
+   width: 100%;
+ }
+ .col-6 {
+   width: 100%;
+ }
+ .col-4 {
+   width: 100%;
+ }
+}

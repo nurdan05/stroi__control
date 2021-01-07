@@ -1,4 +1,4 @@
-$('.slider__wrapper').slick({ //TODO тут должен быть slider__wrapper
+$('.slider__wrapper').slick({
     dots: true,
     arrows: false,
 });

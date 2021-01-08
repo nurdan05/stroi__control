@@ -138,6 +138,9 @@
     font-size: 18px;
   }
   .burger__menu {
+    top: 2%;
+    right: 5%;
+    position: fixed;
     display: flex;
     z-index: 2;
   }

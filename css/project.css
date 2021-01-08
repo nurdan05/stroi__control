@@ -1,22 +1,22 @@
 .yelow__cities {
-    padding: 140px 0 0 0;
-    background: url(../images/yeloww__citi.png) no-repeat center;
-    height: 466px;
+  padding: 140px 0 0 0;
+  background: url(../images/yeloww__citi.png) no-repeat center;
+  height: 466px;
 }
 
 .project__title {
-    width: 980px;
-    padding: 0 38px;
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 64px;
+  width: 980px;
+  padding: 0 38px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1.35;
 }
 
 .project {
-    padding: 54px 0 0 0;
+  padding: 54px 0 0 0;
 }
 
 .project__btn-black,
@@ -56,3 +56,18 @@
   color: var(--color-white);
 }
 
+@media screen and (max-width: 576px) {
+  .project__title {
+    width: 100%;
+    padding: 0;
+    font-size: 32px;
+  }
+  .yelow__cities {
+    width: 100%;
+  }
+  .project__btn-black,
+  .project__btn-white {
+    width: 200px;
+    margin: 6% 0 0 20%;
+  }
+}

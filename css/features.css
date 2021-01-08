@@ -40,7 +40,7 @@
 
 .features_image {
   position: absolute;
-  right: -13%;
+  right: -21%;
 }
 
 
@@ -60,10 +60,7 @@
 }
  
 @media screen and (max-width: 576px) {
-
-.features_image {
-  padding-top: 20px;
-  position: relative;
-  right: -13%;
-}
+  .features_image {
+      display: none
+  }
 }

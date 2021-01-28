@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="./css/index.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/index.css" />
   <link rel="icon" href="./images/logo.svg">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>СТРОЙКОНТРОЛЬ-</title>
 </head>
+
 <body>
   <header class="header">
-    <div class="header__logo">
+    <div class="header__logo ">
       <a class="logo__link" href="#">
-        <img class="logo__image" src="./images/logo.svg" alt="logotype" />
-        <span class="logo__text">Стройконтроль</span>
+        <img class="logo__image" data-aos="fade-right" data-aos-duration="200" src="./images/logo.svg" alt="logotype" />
+        <span class="logo__text" data-aos="fade-left" data-aos-duration="800">Стройконтроль</span>
       </a>
     </div>
     <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="" class="nav__link">Главная</a></li>
-        <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Продукция</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Процесс</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Надёжность</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Клиенты</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Связаться с нами</a></li>
+      <ul class="nav__list" data-aos="fade-right" data-aos-duration="500">
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="200"><a href="" class="nav__link">Главная</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="400"><a href="" class="nav__link">О нас</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="600"><a href="" class="nav__link">Продукция</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="800"><a href="" class="nav__link">Процесс</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="1000"><a href="" class="nav__link">Надёжность</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="1200"><a href="" class="nav__link">Клиенты</a></li>
+        <li class="nav__item" data-aos="fade-down" data-aos-duration="1400"><a href="" class="nav__link">Связаться с нами</a></li>
         <li class="nav__item"><button class="btn-black">Заказать демо</button></li>
       </ul>
     </nav>
-    <div class="burger__menu">
+    <div class="burger__menu" data-aos="fade-left" data-aos-duration="1200">
       <span></span>
     </div>
   </header>
@@ -35,18 +38,20 @@
     <section class="hero">
       <div class="container">
         <div class="hero__content">
-          <h1 class="hero__title">Умная доставка материалов для сложных строительных площадок</h1>
-          <button class="btn-black hero__btn">Заказать демо</button>
-          <button class="btn-white">Подробнее</button>
+          <h1 class="hero__title" data-aos="fade-down" data-aos-duration="1000">Умная доставка материалов для сложных
+            строительных площадок</h1>
+          <button class="btn-black hero__btn" data-aos="fade-right" data-aos-duration="400">Заказать демо</button>
+          <button class="btn-white" data-aos="fade-left" data-aos-duration="500">Подробнее</button>
         </div>
-        <img class="hero__image--1" src="./images/hero-1.png" alt="cities" />
-        <img class="hero__image--2" src="./images/hero-2.png" alt="cars" />
+        <img class="hero__image--1" data-aos="fade-right" data-aos-duration="200" src="./images/hero-1.png"
+          alt="cities" />
+        <img class="hero__image--2" data-aos="fade-left" data-aos-duration="200" src="./images/hero-2.png" alt="cars" />
       </div>
     </section>
     <section class="advantages">
       <div class="container">
         <div class="row">
-          <div class="col-4 advantages__item">
+          <div class="col-4 advantages__item" data-aos="fade-right" data-aos-duration="200">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
@@ -62,13 +67,14 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="advantages__title">Повышение эффективности</h3>
-            <p class="advantages__description">
+            <h3 class="advantages__title" data-aos="fade-left">Повышение эффективности</h3>
+            <p class="advantages__description" data-aos="fade-left">
               Эффективные проекты стоят дешевле и завершаются в срок.
             </p>
           </div>
-          <div class="col-4 advantages__item">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="col-4 advantages__item" data-aos="fade-right" data-aos-duration="400">
+            <svg width="48" data-aos="fade-right" height="48" viewBox="0 0 48 48" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
                   d="M33.295 48C44.314 48 50.602 35.375 46.967 22.253C43.333 9.13096 33.966 17.326 26.667 5.22596C18.654 -8.06404 1.387 6.33896 0 22.253C0.53 30.835 7.93 48 33.295 48Z"
@@ -83,13 +89,14 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="advantages__title">Снижение потерь</h3>
-            <p class="advantages__description">
+            <h3 class="advantages__title" data-aos="fade-left">Снижение потерь</h3>
+            <p class="advantages__description" data-aos="fade-up">
               Тщательно отслеживайте движение стройматериалов, чтобы избежать краж и повреждений.
             </p>
           </div>
-          <div class="col-4 advantages__item">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="col-4 advantages__item" data-aos="fade-left" data-aos-duration="600">
+            <svg data-aos="fade-right" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
                   d="M1.033 25.747C-2.602 12.625 3.686 0 14.705 0C20.802 0 23.405 3.504 30.102 11.663C36.8 19.822 46.35 8.478 48 25.747C46.614 41.66 29.348 56.064 21.332 42.774C14.034 30.674 4.667 38.868 1.032 25.747H1.033Z"
@@ -104,8 +111,8 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="advantages__title">Повышение безопасности</h3>
-            <p class="advantages__description">
+            <h3 class="advantages__title" data-aos="fade-down">Повышение безопасности</h3>
+            <p class="advantages__description" data-aos="fade-left">
               Обеспечьте здоровье и благополучие людей, работающих на вашей площадке.
             </p>
           </div>
@@ -114,35 +121,38 @@
     </section>
     <section class="chaos">
       <div class="container">
-        <div class="chaos__content">
-          <h2 class="title">Строительство - это хаос</h2>
-          <p class="description chaos__text">
+        <div class="chaos__content" data-aos="fade-left">
+          <h2 class="title" data-aos="fade-right">Строительство - это хаос</h2>
+          <p class="description chaos__text" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="500">
             Хаос может быть удивительной творческой силой, воздвигающая новые здания из пыли. Хаос
             вызывает несчастные случаи, задержки и потери. Он вводит проекты в стресс и
             разочарование. Это означает, что вы действительно не контролируете ситуацию.
           </p>
         </div>
-        <img class="chaos__image" src="./images/conversation.png" alt="converstaion" />
+        <img src="./images/conversation.png" alt="converstaion" class="chaos__image" data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom ">
       </div>
     </section>
     <section class="order">
       <div class="container">
-        <h2 class="order__title title">
+        <h2 class="order__title title" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center">
           Пора навести порядок на вашей стройплощадке и взять под контроль свой проект
         </h2>
         <div class="row">
           <div class="col-6">
-            <h3 class="order__suptitle title">
+            <h3 class="order__suptitle title" data-aos="zoom-out-right">
               Мы заботимся о доставке на стройплощадку и о людях, которые на них рассчитывают
             </h3>
-            <p class="order__description description">
+            <p class="order__description description" data-aos="zoom-out-left">
               Мы знаем всё о гордости от сияющего нового здания. Нам также известно всё о
               разочаровании от попыток завершить проект в срок и в рамках бюджета.
             </p>
-            <a class="order__link" href="aki.html">Мы здесь, чтобы помочь.</a>
+            <a class="order__link" data-aos="fade-left" href="aki.html">Мы здесь, чтобы помочь.</a>
           </div>
           <div class="col-6">
-            <img class="order__image" src="./images/order.png" alt="Order image" />
+            <img class="order__image" data-aos="zoom-in-up" src="./images/order.png" alt="Order image" />
           </div>
         </div>
       </div>
@@ -150,32 +160,35 @@
     <section class="sponsors">
       <div class="container">
         <hr />
-        <ul class="sponsors__list">
-          <li class="sponsors__item"><img src="./images/sponsor-1.png" alt="sponsor image" /></li>
-          <li class="sponsors__item"><img src="./images/sponsor-2.png" alt="sponsor image" /></li>
-          <li class="sponsors__item"><img src="./images/sponsor-3.png" alt="sponsor image" /></li>
-          <li class="sponsors__item"><img src="./images/sponsor-4.png" alt="sponsor image" /></li>
-          <li class="sponsors__item"><img src="./images/sponsor-5.png" alt="sponsor image" /></li>
-          <li class="sponsors__item"><img src="./images/sponsor-6.png" alt="sponsor image" /></li>
+        <ul class="sponsors__list" data-aos="zoom-out-down">
+          <li class="sponsors__item" data-aos="flip-left"><img src="./images/sponsor-1.png" alt="sponsor image" /></li>
+          <li class="sponsors__item" data-aos="flip-right"><img src="./images/sponsor-2.png" alt="sponsor image" /></li>
+          <li class="sponsors__item" data-aos="flip-left"><img src="./images/sponsor-3.png" alt="sponsor image" /></li>
+          <li class="sponsors__item" data-aos="flip-right"><img src="./images/sponsor-4.png" alt="sponsor image" /></li>
+          <li class="sponsors__item" data-aos="flip-left"><img src="./images/sponsor-5.png" alt="sponsor image" /></li>
+          <li class="sponsors__item" data-aos="flip-right"><img src="./images/sponsor-6.png" alt="sponsor image" /></li>
         </ul>
         <hr />
       </div>
     </section>
     <section class="about">
       <div class="container">
-        <div class="section__header">
-          <h3 class="about__title title">Что такое СтройКонтроль?</h3>
-          <p class="description">
+        <div class="section__header" data-aos="zoom-out-right">
+          <h3 class="about__title title" data-aos="zoom-out-left">Что такое СтройКонтроль?</h3>
+          <p class="description" data-aos="fade-down"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">
             СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая
             информацию и контроль материалов на сложных строительных площадках в режиме реального
             времени.
           </p>
         </div>
-        <div class="row about__row">
-          <div class="col-6">
+        <div class="row about__row" >
+          <div class="col-6" data-aos="zoom-in-up">
             <div class="about__item">
-              <h5 class="about__suptitle">Отслеживайте доставку по всей цепочке поставок</h5>
-              <p class="about__text">
+              <h5 class="about__suptitle" data-aos="zoom-in-left">Отслеживайте доставку по всей цепочке поставок</h5>
+              <p class="about__text" data-aos="zoom-in-right">
                 От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы,
                 благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на
                 месте.
@@ -183,21 +196,21 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="about__item text-right">
+            <div class="about__item text-right" data-aos="zoom-in-right">
               <img src="./images/about-1.png" alt="car" />
             </div>
           </div>
           <div class="col-6">
-            <div class="about__item text-center">
+            <div class="about__item text-center" data-aos="zoom-in-right">
               <img src="./images/about-2.png" alt="car" />
             </div>
           </div>
           <div class="col-6">
             <div class="about__item">
-              <h5 class="about__suptitle">
+              <h5 class="about__suptitle" data-aos="zoom-in-left">
                 Оптимизируйте и контролируйте свое прибытие на место
               </h5>
-              <p class="about__text">
+              <p class="about__text" data-aos="zoom-in-right">
                 Транспортные средства доставки прибывают в фиксированные промежутки времени в
                 заранее назначенные отсеки, где разгрузочное оборудование готово и ждет их.
               </p>
@@ -205,10 +218,10 @@
           </div>
           <div class="col-6">
             <div class="about__item">
-              <h5 class="about__suptitle">
+              <h5 class="about__suptitle" data-aos="zoom-in-right">
                 Возьмите под контроль данные в режиме реального времени
               </h5>
-              <p class="about__text">
+              <p class="about__text" data-aos="zoom-in-up">
                 Интеллектуальная отчетность дает вам возможность принимать решения в зависимости
                 от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по
                 заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это
@@ -217,7 +230,7 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="about__item text-right">
+            <div class="about__item text-right" data-aos="zoom-in-right">
               <img src="./images/about-3.png" alt="car" />
             </div>
           </div>
@@ -227,8 +240,8 @@
     <section class="delivery">
       <div class="container">
         <div class="section__header">
-          <h3 class="about__title title">Доставка стала проще</h3>
-          <p class="description">
+          <h3 class="about__title title" data-aos="zoom-out-down">Доставка стала проще</h3>
+          <p class="description" data-aos="zoom-out-up">
             Мы позаботимся обо всех ваших различных поставках и их многочисленных
             специализированных требованиях к разгрузке.
           </p>
@@ -236,7 +249,7 @@
         <div class="row delivery__row">
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -256,8 +269,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Бетон</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="zoom-in">Бетон</h5>
+                <p class="delivery__text" data-aos="zoom-in-up">
                   Поставки бетона точно планируются, а его состояние контролируется, что
                   обеспечивает максимально возможное время для установки.
                 </p>
@@ -266,7 +279,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -283,8 +296,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Утилизация отходов</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="flip-left">Утилизация отходов</h5>
+                <p class="delivery__text" data-aos="flip-up">
                   Отходы контролируются и сортируются, а заполненность контейнеров отслеживается в
                   цифровом виде.
                 </p>
@@ -293,7 +306,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -316,8 +329,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Опалубка</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="fade-left">Опалубка</h5>
+                <p class="delivery__text" data-aos="fade-right">
                   Вся опалубка отслеживается от прибытия до отправления, а ее состояние
                   контролируется, что сводит к минимуму потери и повреждения.
                 </p>
@@ -326,7 +339,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -343,8 +356,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Сборные панели</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle"  data-aos="fade-up-left">Сборные панели</h5>
+                <p class="delivery__text" data-aos="fade-up-right">
                   Сборные панели прибывают по очереди, их хранение на месте отслеживается, а их
                   установка планируется и контролируется.
                 </p>
@@ -353,7 +366,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -382,8 +395,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Фасады</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="fade-down-right">Фасады</h5>
+                <p class="delivery__text" data-aos="fade-down-left">
                   Элементы фасада поступают последовательно, их сборка контролируется, а
                   перемещение отслеживается.
                 </p>
@@ -392,7 +405,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -409,8 +422,8 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Отделка</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="zoom-out-down">Отделка</h5>
+                <p class="delivery__text" data-aos="zoom-out-down">
                   Материалы поступают точно в срок, маркируются и детально отслеживаются для
                   установки.
                 </p>
@@ -419,7 +432,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -437,8 +450,9 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Строительные леса</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="fade-right"
+                data-aos-anchor-placement="bottom-bottom">Строительные леса</h5>
+                <p class="delivery__text" data-aos="zoom-out-down">
                   Строительные леса отслеживаются от получения до хранения, использования и
                   возврата, поэтому всегда ясно, что на месте и где.
                 </p>
@@ -447,7 +461,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path
@@ -464,8 +478,11 @@
                 </defs>
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Оборудование</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">Оборудование</h5>
+                <p class="delivery__text" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                   Оборудование и операторы гарантированно доступны в случае необходимости, а их
                   рабочее состояние отслеживается.
                 </p>
@@ -474,7 +491,7 @@
           </div>
           <div class="col-4">
             <div class="delivery__item row">
-              <svg class="delivery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              <svg data-aos="zoom-out-left" data-aos-duration="400" class="delivery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0 0V8H2V7H8C8.26522 7 8.51957 7.10536 8.70711 7.29289C8.89464 7.48043 9 7.73478 9 8V18C9 20.75 11.25 23 14 23H22V24H24V16H22V17H16C15.7348 17 15.4804 16.8946 15.2929 16.7071C15.1054 16.5196 15 16.2652 15 16V6C15 3.25 12.75 1 10 1H2V0H0ZM2 3H10C11.669 3 13 4.331 13 6V11H11V7C11 5.907 10.093 5 9 5H2V3ZM11 13H13V17C13 18.093 13.907 19 15 19H22V21H14C12.331 21 11 19.669 11 18V13Z"
@@ -482,8 +499,11 @@
                 <path d="M8 11H16V14H8V11Z" fill="#036FC7" />
               </svg>
               <div class="delivery__info">
-                <h5 class="delivery__suptitle">Электрика и сантехника</h5>
-                <p class="delivery__text">
+                <h5 class="delivery__suptitle" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">Электрика и сантехника</h5>
+                <p class="delivery__text" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                   Доставка осуществляется в точной последовательности для сложной установки, что
                   сокращает или устраняет необходимость в хранении.
                 </p>
@@ -492,16 +512,23 @@
           </div>
         </div>
         <div class="delivery__footer">
-          <span>...</span> <a class="orange-link" href="">и все остальные материалы,</a>
-          <span>которые поступают или покидают вашу площадку</span>
+          <span  data-aos="zoom-in">...</span> <a data-aos="zoom-in-Left" class="orange-link" href="">и все остальные материалы,</a>
+          <span  data-aos="zoom-in-down" data-aos-easing="linear"
+          data-aos-duration="100">которые поступают или покидают вашу площадку</span>
         </div>
       </div>
     </section>
     <section class="safety">
       <div class="container">
         <div class="section__header">
-          <h3 class="safety__title title">Надёжность</h3>
-          <p class="description">
+          <h3 class="safety__title title" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">Надёжность</h3>
+          <p class="description" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
             Благодаря надёжному строительству выигрывают все - муниципальные органы выполняют свои
             обязанности перед гражданами, инвесторы получают сертификаты своих проектов, а
             генеральные подрядчики получают повышенную репутацию.
@@ -509,7 +536,8 @@
         </div>
         <div class="row safety__row">
           <div class="col-4 safety__item">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-aos="fade-up"
+            data-aos-anchor-placement="top-center" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
                   d="M46.967 25.747C50.602 12.625 44.314 0 33.295 0C27.198 0 24.595 3.504 17.898 11.663C11.2 19.822 1.65 8.478 0 25.747C1.386 41.66 18.652 56.064 26.668 42.774C33.966 30.674 43.333 38.868 46.968 25.747H46.967Z"
@@ -524,15 +552,18 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="safety__suptitle">Сниженное загрязнение</h3>
-            <p class="safety__text">
+            <h3 class="safety__suptitle" data-aos="fade-right"
+            data-aos-anchor-placement="top-left">Сниженное загрязнение</h3>
+            <p class="safety__text" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
               При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов
               CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые
               улучшения.
             </p>
           </div>
           <div class="col-4 safety__item">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-aos="fade-up"
+            data-aos-anchor-placement="top-center" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
                   d="M1.033 32.952C-2.602 20.138 3.686 0 14.705 0C20.802 0 27.405 2.446 34.102 10.413C40.8 18.381 48 14.646 48 30.023C48 46.873 28.5 54.198 21.332 41.771C14.397 29.748 4.667 45.766 1.032 32.952H1.033Z"
@@ -554,15 +585,18 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="safety__suptitle">Сниженное загрязнение</h3>
-            <p class="safety__text">
+            <h3 class="safety__suptitle" data-aos="fade-right"
+            data-aos-anchor-placement="top-left">Сниженное загрязнение</h3>
+            <p class="safety__text" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
               При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов
               CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые
               улучшения.
             </p>
           </div>
           <div class="col-4 safety__item">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-aos="fade-up"
+            data-aos-anchor-placement="top-center" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">
                 <path
                   d="M48 27.575C48 16.32 46.403 0 26.452 0C6.50096 0 17.257 19.311 5.12896 26.765C-8.19004 34.95 6.90896 48 22.195 48C33.97 48 48 42.173 48 27.575Z"
@@ -577,8 +611,10 @@
                 </clipPath>
               </defs>
             </svg>
-            <h3 class="safety__suptitle">Сниженное загрязнение</h3>
-            <p class="safety__text">
+            <h3 class="safety__suptitle" data-aos="fade-right"
+            data-aos-anchor-placement="bottom-center">Сниженное загрязнение</h3>
+            <p class="safety__text" data-aos="fade-left"
+            data-aos-anchor-placement="top-right">
               При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов
               CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые
               улучшения.
@@ -858,24 +894,24 @@
           </div>
         </div>
         <div class="benefits__sponsors">
-        <div class="benefits__image col-2">
-          <img src="./images/benefits__image-1.png" alt="benefits__1">
-          <p>50 лучших инструментов ConTech</p>
-        </div>
-        <div class="benefits__image col-2">
-          <img src="./images/benefits__image-2.png" alt="benefits__2">
-          <p>25 лучших стартапов ConTech в ЕС</p>
-        </div>
-        <div class="benefits__image col-2">
-          <img src="./images/benefits__image-3.png" alt="benefits__3">
-          <p>50 лучших стартапов Global ConTech</p>
-        </div>
-        <div class="benefits__image col-2">
-          <img src="./images/benefits__image-4.png" alt="benefits__4">
-          <p>2018 - 50 лучших стартапов ЕС PropTech</p>
+          <div class="benefits__image col-2">
+            <img src="./images/benefits__image-1.png" alt="benefits__1">
+            <p>50 лучших инструментов ConTech</p>
+          </div>
+          <div class="benefits__image col-2">
+            <img src="./images/benefits__image-2.png" alt="benefits__2">
+            <p>25 лучших стартапов ConTech в ЕС</p>
+          </div>
+          <div class="benefits__image col-2">
+            <img src="./images/benefits__image-3.png" alt="benefits__3">
+            <p>50 лучших стартапов Global ConTech</p>
+          </div>
+          <div class="benefits__image col-2">
+            <img src="./images/benefits__image-4.png" alt="benefits__4">
+            <p>2018 - 50 лучших стартапов ЕС PropTech</p>
+          </div>
         </div>
       </div>
-    </div>
     </section>
     <section class="yelow__cities">
       <div class="container">
@@ -890,15 +926,15 @@
       <div class="container">
         <div class="row">
           <div class="footer__info">
-        <a class="logo__link" href="#">
-          <img class="logo__image" src="./images/logo.svg" alt="logotype" />
-          <span class="logo__text">Стройконтроль</span>
-        </a>
-          <h3 class="footer__location">г. Москва</h3>
-          <h3 class="footer__street">Пресненская наб., 88, оф. 527</h3>
-          <h3 class="footer__email">info@stroycontrol.ru</h3>
+            <a class="logo__link" href="#">
+              <img class="logo__image" src="./images/logo.svg" alt="logotype" />
+              <span class="logo__text">Стройконтроль</span>
+            </a>
+            <h3 class="footer__location">г. Москва</h3>
+            <h3 class="footer__street">Пресненская наб., 88, оф. 527</h3>
+            <h3 class="footer__email">info@stroycontrol.ru</h3>
             <span class="footer__number">+7 (945) 123-45-67</span>
-          <br>
+            <br>
             <img class="footer__icon" src="./images/facebook.png" alt="facebook">
           </div>
           <div class="footer__inner">
@@ -926,9 +962,11 @@
       </div>
     </section>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/index.js"></script>
   <script src="./js/burger.js"></script>
 </body>
-</html> 
+
+</html>

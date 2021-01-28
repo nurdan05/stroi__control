@@ -32,22 +32,22 @@
   background-color: var(--color-orange);
 }
 
-.row {
-  display: flex;
-}
-.col-7 {
-  width: 58.33% ;
-}
-.col-6 {
-  width: 50%;
-}
+  .row {
+    display: flex;
+  }
+  .col-7 {
+    width: 58.33% ;
+  }
+  .col-6 {
+    width: 50%;
+  }
 
-.col-4 {
-  width: 33.33%;
-}
-.col-2 {
-  width: 13.33%
-}
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-2 {
+    width: 13.33%
+  }
 .title {
   font-weight: normal;
   font-size: 32px;

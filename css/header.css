@@ -125,9 +125,9 @@
     align-items: center;
     flex-direction: column;
   }
-  /* .nav .nav__list .nav__item {
+  .nav .nav__list .nav__item {
     margin: 25px 0 0;
-  } */
+  }
   .nav .nav__list .nav__item a {
     color: var(--color-white);
   }
